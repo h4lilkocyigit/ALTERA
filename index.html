@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALTERA | Paralel Evren Benliğini Keşfet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars-bg"></div>
+    <div class="nebula-glow"></div>
+
+    <main class="container">
+        <!-- 1. GİRİŞ EKRANI -->
+        <section id="intro-screen" class="screen active">
+            <div class="badge">BOYUTLAR ARASI GEÇİT AKTİF</div>
+            <h1 class="logo-title">ALTERA</h1>
+            <p class="subtitle">
+                Şu an yaşadığın evren, sonsuz olasılıklardan yalnızca biri. 
+                10 soruluk boyutsal yankı testini tamamla; gerçek ruhunun <strong>Altera Evreni'ndeki</strong> 
+                karşılığını, görünümünü ve seni bekleyen kadim kehaneti açığa çıkar.
+            </p>
+            <div class="info-pills">
+                <span>✦ 10 Boyutsal Soru</span>
+                <span>✦ 20 Benzersiz Arketip</span>
+                <span>✦ Kişisel Kehanet</span>
+            </div>
+            <button id="start-btn" class="primary-btn">Boyut Kapısını Arala</button>
+        </section>
+
+        <!-- 2. TEST EKRANI -->
+        <section id="quiz-screen" class="screen hidden">
+            <div class="quiz-header">
+                <span id="question-counter">SORU 1 / 10</span>
+                <span id="question-dimension" class="dimension-tag">GERÇEK DÜNYA YANKISI</span>
+            </div>
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            
+            <h2 id="question-text" class="question-title">Soru metni buraya gelecek...</h2>
+            
+            <div id="options-container" class="options-grid">
+                <!-- Şıklar JS ile dinamik eklenecek -->
+            </div>
+        </section>
+
+        <!-- 3. YÜKLENİYOR / BOYUT TARAMA EKRANI -->
+        <section id="loading-screen" class="screen hidden">
+            <div class="portal-loader">
+                <div class="ring"></div>
+                <div class="ring"></div>
+                <div class="ring"></div>
+            </div>
+            <h2 id="loading-text">Paralel evren frekansların taranıyor...</h2>
+            <p class="loading-sub">Ruhsal izlerin 20 kadim arketip ile eşleştiriliyor.</p>
+        </section>
+
+        <!-- 4. SONUÇ EKRANI -->
+        <section id="result-screen" class="screen hidden">
+            <div class="result-card">
+                <div class="card-top-tag">ALTERA EVRENİ KİMLİK KARTI</div>
+                
+                <div class="character-showcase">
+                    <div class="avatar-frame">
+                        <img id="char-image" src="" alt="Karakter Görseli">
+                        <div class="element-badge" id="char-realm">Gölge Diyarı</div>
+                    </div>
+                    <div class="character-header-info">
+                        <span id="char-title" class="char-role">Ünvan</span>
+                        <h2 id="char-name" class="char-name">Karakter Adı</h2>
+                        <p id="char-appearance" class="appearance-note">Fiziksel Görünüm Detayı</p>
+                        
+                        <div class="stats-bars">
+                            <div class="stat-item">
+                                <span>Büyü & Sezgi</span>
+                                <div class="stat-track"><div id="stat-magic" class="stat-fill"></div></div>
+                            </div>
+                            <div class="stat-item">
+                                <span>Savaş & İrade</span>
+                                <div class="stat-track"><div id="stat-power" class="stat-fill"></div></div>
+                            </div>
+                            <div class="stat-item">
+                                <span>Zeka & Strateji</span>
+                                <div class="stat-track"><div id="stat-wit" class="stat-fill"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="analysis-section">
+                    <h3>✦ Ruh ve Karakter Analizin</h3>
+                    <p id="char-analysis"></p>
+                </div>
+
+                <div class="prophecy-section">
+                    <h3>🔮 Altera Kadim Kehaneti</h3>
+                    <p id="char-prophecy"></p>
+                </div>
+
+                <div class="result-actions">
+                    <button id="share-btn" class="secondary-btn">Sonucu Kopyala & Paylaş</button>
+                    <button id="restart-btn" class="primary-btn">Başka Bir Boyutu Dene</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
