@@ -108,11 +108,11 @@ const CHARACTERS = [
         title: "Aether Rünlerinin Efendisi",
         realm: "Astral Gözlem Kulesi",
         appearance: "Belinden aşağı süzülen gümüş-beyaz uzun saçlar, alnında parlayan mor kuantum rünü ve yıldız haritaları işli koyu lacivert zırhlı cübbe.",
-        avatarUrl: "https://image.pollinations.ai/prompt/3d%20game%20character%20portrait%20handsome%20male%20arcane%20mage%20waist%20length%20silver%20white%20hair%20glowing%20purple%20rune%20on%20forehead%20dark%20navy%20gold%20armored%20robe%20league%20of%20legends%20arcane%20unreal%20engine%205%20render?width=600&height=600&nologo=true&seed=101",
+        visual: { bg1: "#1e1b4b", bg2: "#090a14", hair: "#e2e8f0", hairStyle: "long", skin: "#f1c27d", eye: "#c084fc", armor: "#312e81", trim: "#a855f7", accessory: "rune" },
         vector: { M: 26, S: 14, W: 4, R: 6 },
         stats: { magic: 96, power: 42, wit: 88 },
         analysis: "Sen bu dünyada bile sıradan tesadüflerin arkasındaki gizli algoritmayı çözmeye çalışan, zihni sürekli paralel ihtimaller arasında mekik dokuyan birisin. İnsanlar senin o sakin ve bazen mesafeli duruşunu görünce her şeyi umursamadığını sanıyor; oysa kafanın içinde aynı anda yedi farklı boyutun satrancını oynuyorsun. Altera Evreni'nde bu zihinsel frekansın seni sıradan bir büyücü değil, zaman-mekan dokusundaki çatlakları çıplak gözle görebilen bir Aether Mühendisi yapmış.\n\nSenin için bilgi sadece güç değil, hayatta kalma refleksi. Bir ortama girdiğinde kimin rol yaptığını, kimin yakında fikir değiştireceğini saniyeler içinde seziyorsun. Altera'da elindeki yıldız haritalarıyla koca filoların kaderini tek bir mühürle değiştirebilmenin sebebi de bu: duygularınla değil, evrenin fısıldadığı o soğukkanlı kozmik matematikle hareket ediyorsun.",
-        prophecy: "Önümüzdeki üç dolunaylık döngüde, gerçek hayatında uzun zamandır zihnini kemiren ve 'bu işin içinden nasıl çıkacağım' dediğin o karmaşık düğüm, hiç beklemediğin bir eşzamanlılıkla çözülecek. Eski bir tanıdıktan gelecek şifreli bir haber ya da gece yarısı aklına düşecek ani bir fikir, seni sıkıştığın o tekdüze yörüngeden çıkarıp çok daha yüksek bir seviyeye taşıyacak. Çevrendeki insanların mantıksız bulduğu o içgüdüne sımsıkı sarıl; çünkü zihnin gelecekten gelen sinyalleri çoktan yakalamış durumda."
+        prophecy: "Önümüzdeki üç dolunaylık döngüde, gerçek hayatında uzun zamandır zihnini kemiren ve 'bu işin içinden nasıl çıkacağım' dediğin o karmaşık düğüm, hiç beklemediğin bir eşzamanlılıkla çözülecek. Eski bir tanıdıktan gelecek şifreli bir haber ya da gece yarısı aklına düşecek ani bir fikir, seni sıkıştığın o tekdüze yörüngeden çıkarıp çok daha yüksek bir seviyeye taşıyacak.\n\nÇevrendeki insanların mantıksız bulduğu o içgüdüne sımsıkı sarıl; çünkü zihnin gelecekten gelen sinyalleri çoktan yakalamış durumda."
     },
     {
         id: 2,
@@ -120,11 +120,11 @@ const CHARACTERS = [
         title: "Kızıl Şafak Komutanı",
         realm: "Volkanik Plazma Surları",
         appearance: "Omuzlarına dökülen ateş kızılı dalgalı saçlar, sol yanağında parlayan savaş izi, altın işlemeli obsidyen göğüs zırhı ve kor alevli pelerin.",
-        avatarUrl: "https://image.pollinations.ai/prompt/3d%20game%20character%20portrait%20fierce%20female%20warrior%20commander%20wavy%20fiery%20red%20hair%20glowing%20cheek%20scar%20obsidian%20and%20gold%20chest%20armor%20crimson%20cape%20league%20of%20legends%20arcane%20unreal%20engine%205%20render?width=600&height=600&nologo=true&seed=102",
+        visual: { bg1: "#7f1d1d", bg2: "#180505", hair: "#ef4444", hairStyle: "long", skin: "#e0ac69", eye: "#facc15", armor: "#1c1917", trim: "#f59e0b", accessory: "scar" },
         vector: { W: 27, R: 10, S: 8, M: 5 },
         stats: { magic: 50, power: 98, wit: 72 },
         analysis: "Senin damarlarında kan yerine yüksek voltajlı bir adalet duygusu ve durdurulamaz bir meydan okuma ateşi akıyor. Gerçek dünyada da biri haksızlığa uğradığında ya da sana sınır çizilmeye çalışıldığında gözün hiçbir şeyi görmüyor; o an senin için hesap kitap devri kapanıp eylem devri başlıyor. Altera Evreni'nde bu kontrolsüz cesaretin seni sıradan bir asker değil, göktaşı demirinden dövülmüş zırhıyla orduların en önünde yürüyen yenilmez bir cephe komutanına dönüştürmüş.\n\nKaybetmekten korkmuyorsun, çünkü senin felsefende düşmek sadece daha sert bir karşı saldırı için yay gibi gerilmektir. İnsanlar senin yanında kendilerini güvende hissediyor çünkü fırtına koptuğunda saklanmak yerine kılıcını çekip yıldırımın üzerine yürüyen ilk kişi her zaman sensin.",
-        prophecy: "Yakın gelecekte hayatında 'artık bu kadar yeter' deyip masaya yumruğunu vuracağın kritik bir kırılma noktası görünüyor. Uzun süredir sabrettiğin, alttan aldığın veya cesaret edemediğin o büyük yüzleşme için evren sana yeşil ışık yakacak. İlk adımı attığın an, gözünde büyüttüğün tüm engellerin kağıttan kaleler gibi devrildiğine şahit olacaksın; bu cesaretin sana hem özgürlük hem de hak ettiğin liderlik koltuğunu getirecek."
+        prophecy: "Yakın gelecekte hayatında 'artık bu kadar yeter' deyip masaya yumruğunu vuracağın kritik bir kırılma noktası görünüyor. Uzun süredir sabrettiğin, alttan aldığın veya cesaret edemediğin o büyük yüzleşme için evren sana yeşil ışık yakacak.\n\nİlk adımı attığın an, gözünde büyüttüğün tüm engellerin kağıttan kaleler gibi devrildiğine şahit olacaksın; bu cesaretin sana hem özgürlük hem de hak ettiğin liderlik koltuğunu getirecek."
     },
     {
         id: 3,
@@ -132,11 +132,11 @@ const CHARACTERS = [
         title: "Fısıldayan Gölgelerin Kraliçesi",
         realm: "Neon Gece Pazarı",
         appearance: "Kuzgun siyahı asimetrik kesim kısa saçlar, zümrüt yeşili keskin gözler, yüksek yakalı zırhlı deri trençkot ve plazma hançer kemeri.",
-        avatarUrl: "https://image.pollinations.ai/prompt/3d%20game%20character%20portrait%20mysterious%20female%20cyber%20shadow%20assassin%20asymmetrical%20jet%20black%20short%20hair%20glowing%20emerald%20eyes%20high%20collar%20leather%20trench%20coat%20valorant%20arcane%20unreal%20engine%205%20render?width=600&height=600&nologo=true&seed=103",
+        visual: { bg1: "#064e3b", bg2: "#05080a", hair: "#0f172a", hairStyle: "short", skin: "#f1c27d", eye: "#10b981", armor: "#111827", trim: "#34d399", accessory: "hood" },
         vector: { R: 27, S: 12, M: 7, W: 4 },
         stats: { magic: 64, power: 68, wit: 92 },
         analysis: "Kurallar senin için sadece başkalarının oyalanması için uydurulmuş basit kodlardan ibaret. Gerçek hayatta da kimseye bütün kartlarını açmayan, ortamın havasını saniyeler içinde koklayıp kendi lehine çeviren kıvrak ve tehlikeli bir zekan var. Altera'da krallıkların en gizli veri kasalarını ve yasaklı sırlarını elinde tutan, gölgelerin arasından süzülüp kimsenin izini süremediği o efsanevi hayaletsin.\n\nSenin en büyük silahın görünmezliğin değil, insanların egolarını kusursuzca okuyabilmen. Herkes gürültü çıkararak güç gösterisi yaparken, sen en karanlık köşeden tek bir hamleyle bütün oyunun fişini çekiyorsun.",
-        prophecy: "Çok yakında gizli kalmış bir gerçek ya da birilerinin senden ustalıkla sakladığı bir plan tesadüfen önüne düşecek. İlk tepkin öfkelenmek olabilir ama sakın açık verme; sadece gülümse ve o bilgiyi kasana kilitle. Sessizce kendi hamleni kurguladığında, seni hafife alan herkesin oyunun kurallarını senin yazdığını fark etmesi çok uzun sürmeyecek."
+        prophecy: "Çok yakında gizli kalmış bir gerçek ya da birilerinin senden ustalıkla sakladığı bir plan tesadüfen önüne düşecek. İlk tepkin öfkelenmek olabilir ama sakın açık verme; sadece gülümse ve o bilgiyi kasana kilitle.\n\nSessizce kendi hamleni kurguladığında, seni hafife alan herkesin oyunun kurallarını senin yazdığını fark etmesi çok uzun sürmeyecek."
     },
     {
         id: 4,
@@ -144,11 +144,11 @@ const CHARACTERS = [
         title: "Zaman Dişlilerinin Baş Mimarı",
         realm: "Buhar ve Kuantum Şehri",
         appearance: "Dağınık bakır rengi kıvırcık saçlar, alnında parlayan pirinç siber-gözlükler, deri zırhlı önlük ve mavi enerji çekirdekli mekanik eldiven.",
-        avatarUrl: "https://image.pollinations.ai/prompt/3d%20game%20character%20portrait%20male%20steampunk%20sci%20fi%20inventor%20messy%20copper%20curly%20hair%20glowing%20brass%20cyber%20goggles%20on%20forehead%20blue%20energy%20gauntlet%20arcane%20unreal%20engine%205%20render?width=600&height=600&nologo=true&seed=104",
+        visual: { bg1: "#78350f", bg2: "#140c05", hair: "#c2410c", hairStyle: "spiky", skin: "#e0ac69", eye: "#38bdf8", armor: "#451a03", trim: "#fbbf24", accessory: "goggles" },
         vector: { S: 28, M: 10, W: 6, R: 6 },
         stats: { magic: 70, power: 55, wit: 99 },
         analysis: "Senin beynin asla uyku moduna geçmeyen dev bir kuantum işlemcisi gibi çalışıyor. Plansızlıktan ve mantıksız dramlardan nefret ediyor, karşına çıkan her kaosu parçalara ayırıp daha verimli bir sistem kurarak çözüyorsun. Altera Evreni'nde kadim büyüyü yüksek teknolojiyle birleştirip imkansız makineler ve zaman bükücü cihazlar inşa eden dahi başmimarsın.\n\nİnsanlar bir sorunun karşısında 'bu imkansız' deyip ellerini havaya kaldırdığında, sen çoktan üç farklı prototip çizmiş ve en verimli olanını çalıştırmaya başlamış oluyorsun. Senin için evren çözülmesi gereken dev bir bulmacadan ibaret.",
-        prophecy: "Zihninde uzun zamandır tasarladığın ama 'acaba zamanı geldi mi?' diye beklettiğin o proje, fikir veya plan için büyük hasat vakti yaklaşıyor. Önümüzdeki aylarda analitik zekan ve pratik bir çözümün sayesinde çevrendeki herkesi şaşırtacak somut bir başarı elde edeceksin. Detaylara olan takıntın bu kez sana büyük bir kapı aralayacak."
+        prophecy: "Zihninde uzun zamandır tasarladığın ama 'acaba zamanı geldi mi?' diye beklettiğin o proje, fikir veya plan için büyük hasat vakti yaklaşıyor. Önümüzdeki aylarda analitik zekan ve pratik bir çözümün sayesinde çevrendeki herkesi şaşırtacak somut bir başarı elde edeceksin.\n\nDetaylara olan takıntın bu kez sana büyük bir kapı aralayacak."
     },
     {
         id: 5,
@@ -156,11 +156,11 @@ const CHARACTERS = [
         title: "Rüya Dokuyucu Bilinç Kahini",
         realm: "Biyolüminesans Lagün",
         appearance: "Su yeşili ve lavanta tonlarında örgülü uzun saçlar, inci işlemeli yarı saydam enerji şalı ve elinde sıvı ışık saçan kristal asa.",
-        avatarUrl: "https://image.pollinations.ai/prompt/3d%20game%20character%20portrait%20mystical%20female%20sci%20fi%20dream%20oracle%20braided%20aqua%20and%20lavender%20long%20hair%20glowing%20crystal%20staff%20bioluminescent%20mist%20league%20of%20legends%20arcane%20unreal%20engine%205%20render?width=600&height=600&nologo=true&seed=105",
+        visual: { bg1: "#3b0764", bg2: "#090d16", hair: "#2dd4bf", hairStyle: "long", skin: "#ffdbac", eye: "#e879f9", armor: "#4c1d95", trim: "#5eead4", accessory: "crown" },
         vector: { M: 25, R: 12, S: 9, W: 4 },
         stats: { magic: 95, power: 38, wit: 84 },
         analysis: "Empati frekansın o kadar yüksek ki, bazen bir odaya girdiğinde insanların söylemediği cümleleri bile zihninde duyuyorsun. Gerçek dünyanın katı ve ruhsuz kuralları seni çabuk yoruyor; çünkü senin ruhun sınırların ötesinde yüzmeye alışkın. Altera Evreni'nde insanların bilinçaltına sızıp onların en derin korkularını ve gizli arzularını yeniden şekillendiren mistik bir rüya gezginisin.\n\nYaratıcılığın ve hayal gücün senin en büyük kalkanın. Başkalarının sadece karanlık gördüğü yerde sen yepyeni dünyalar inşa edebiliyorsun.",
-        prophecy: "Rüyalarının ve ani içgüdülerinin ürkütücü bir netlikle gerçeğe dönüştüğü büyülü bir döneme giriyorsun. Hayatından çıkması gereken ağır bir enerji veya seni aşağı çeken bir bağ kendiliğinden çözülecek; yerine ruhunu besleyen yepyeni bir ilham ve tutku kaynağı gelecek. İçindeki sesi susturma, onu yaratıma dönüştür."
+        prophecy: "Rüyalarının ve ani içgüdülerinin ürkütücü bir netlikle gerçeğe dönüştüğü büyülü bir döneme giriyorsun. Hayatından çıkması gereken ağır bir enerji veya seni aşağı çeken bir bağ kendiliğinden çözülecek; yerine ruhunu besleyen yepyeni bir ilham ve tutku kaynağı gelecek.\n\nİçindeki sesi susturma, onu yaratıma dönüştür."
     },
     {
         id: 6,
@@ -168,11 +168,11 @@ const CHARACTERS = [
         title: "Fırtına Kıran Siber-Gladyatör",
         realm: "Gökyüzü Arenası",
         appearance: "Kazınmış yanlar ve tepede toplanmış koyu kahverengi saçlar, boynunda elektrik mavisi plazma izleri, zırhlı gladyatör tuniği.",
-        avatarUrl: "https://image.pollinations.ai/prompt/3d%20game%20character%20portrait%20male%20sky%20gladiator%20shaved%20sides%20dark%20brown%20top%20knot%20hair%20glowing%20electric%20blue%20lightning%20neck%20tattoos%20armored%20tunic%20arcane%20unreal%20engine%205%20render?width=600&height=600&nologo=true&seed=106",
+        visual: { bg1: "#0369a1", bg2: "#081221", hair: "#3f2e21", hairStyle: "spiky", skin: "#c68642", eye: "#38bdf8", armor: "#1e293b", trim: "#0ea5e9", accessory: "scar" },
         vector: { W: 26, R: 13, M: 6, S: 5 },
         stats: { magic: 58, power: 95, wit: 66 },
         analysis: "Sen baskı altında ezilen değil, üzerindeki basıncı saf enerjiye dönüştüren bir reaktör gibisin. Özgürlüğüne hastalıklı derecede düşkünsün; kimsenin seni bir kalıba sokmasına ya da zincirlemesine tahammülün yok. Altera'da gökyüzü fırtınalarının yüksek voltajını çıplak elleriyle yönlendiren, arenaların yenilmez şampiyonusun.\n\nEnerjin girdiğin her ortamın atmosferini anında değiştiriyor. İnsanlar ya senin rüzgarına kapılıp seninle birlikte yükseliyor ya da yolundan çekilmek zorunda kalıyor.",
-        prophecy: "Seni yerinde saydıran ve enerjini boğan durgun bir dönem nihayet sona eriyor; yüksek tempolu bir macera başlıyor. Hem fiziksel hem de zihinsel sınırlarını zorlayacağın cesur bir meydan okuma kapıda. Korkusuzca üzerine gittiğinde, hiç beklemediğin bir zaferle taçlandırılacaksın."
+        prophecy: "Seni yerinde saydıran ve enerjini boğan durgun bir dönem nihayet sona eriyor; yüksek tempolu bir macera başlıyor. Hem fiziksel hem de zihinsel sınırlarını zorlayacağın cesur bir meydan okuma kapıda.\n\nKorkusuzca üzerine gittiğinde, hiç beklemediğin bir zaferle taçlandırılacaksın."
     },
     {
         id: 7,
@@ -180,7 +180,7 @@ const CHARACTERS = [
         title: "Altın Konsey Başyargıcı",
         realm: "Güneş İmparatorluğu",
         appearance: "Kusursuz topuz yapılmış bal sarısı saçlar, altın ışık halesi tacı, beyaz ve altın sırmalı asil imparatorluk zırhı.",
-        avatarUrl: "https://image.pollinations.ai/prompt/3d%20game%20character%20portrait%20regal%20female%20high%20commander%20honey%20blonde%20bun%20hair%20golden%20halo%20crown%20white%20and%20gold%20imperial%20armor%20league%20of%20legends%20arcane%20unreal%20engine%205%20render?width=600&height=600&nologo=true&seed=107",
+        visual: { bg1: "#854d0e", bg2: "#1a1205", hair: "#facc15", hairStyle: "long", skin: "#f1c27d", eye: "#fbbf24", armor: "#f8fafc", trim: "#eab308", accessory: "crown" },
         vector: { S: 25, W: 14, M: 7, R: 4 },
         stats: { magic: 68, power: 82, wit: 94 },
         analysis: "Doğuştan gelen sarsılmaz bir otoriten ve kriz anlarında bile dağılmayan bir duruşun var. İnsanlar karmaşaya düştüğünde gözleri istemsizce seni arıyor çünkü sen her zaman oyunun üç hamle sonrasını görmüş gibi davranıyorsun. Altera'da koca bir yıldız imparatorluğunun yasalarını yazan, tek sözüyle savaşları başlatıp bitiren yüce başyargıçsın.\n\nAdaletin keskin ama merhametin stratejik; kime ne kadar güveneceğini çok iyi biliyorsun.",
@@ -192,7 +192,154 @@ const CHARACTERS = [
         title: "Boyutlar Arası Kaçakçı",
         realm: "Sınır Boşluğu",
         appearance: "Rüzgardan dağılmış platin sarısı kısa saçlar, tek gözünde holografik kristal mercek, çok cepli zırhlı deri ceket.",
-        avatarUrl: "https://image.pollinations.ai/prompt/3d%20game%20character%20portrait%20charismatic%20male%20sci%20fi%20dimension%20smuggler%20windswept%20platinum%20blonde%20hair%20holographic%20crystal%20monocle%20armored%20leather%20jacket%20arcane%20unreal%20engine%205%20render?width=600&height=600&nologo=true&seed=108",
+        visual: { bg1: "#27272a", bg2: "#09090b", hair: "#f4f4f5", hairStyle: "short", skin: "#e0ac69", eye: "#f97316", armor: "#3f3f46", trim: "#fb923c", accessory: "goggles" },
         vector: { R: 25, S: 13, W: 7, M: 5 },
         stats: { magic: 60, power: 72, wit: 89 },
-        analysis: "Tek bir yere, tek bir fikre veya tek bir sıkıcı rutine bağlı kalmak senin doğana tamamen aykırı. Meraklı, esprili ve en tehlikeli anlarda bile şaka yapabilecek kadar soğukkanlısın. Altera Evreni'nde yasaklı boyutlar arasında nadir kuantum eserleri taşıyan, hiçbir imparatorluğun yakalayamadığı o efsanevi boyut kaçakçısısın.\n\nSen
+        analysis: "Tek bir yere, tek bir fikre veya tek bir sıkıcı rutine bağlı kalmak senin doğana tamamen aykırı. Meraklı, esprili ve en tehlikeli anlarda bile şaka yapabilecek kadar soğukkanlısın. Altera Evreni'nde yasaklı boyutlar arasında nadir kuantum eserleri taşıyan, hiçbir imparatorluğun yakalayamadığı o efsanevi boyut kaçakçısısın.\n\nSenin için hayat haritası olmayan bir macera; en iyi hamlelerini de her zaman doğaçlama yapıyorsun.",
+        prophecy: "Ani bir rota değişikliği veya beklenmedik bir yolculuk planı kapını çalacak. İlk başta plansız göründüğü için tereddüt edebilirsin ama bu sürpriz fırsat seni hayal bile edemeyeceğin kadar renkli insanlarla ve yeni ufuklarla tanıştıracak."
+    },
+    {
+        id: 9,
+        name: "Malakor Thorne",
+        title: "Karanlık Köklerin Biyo-Simyacısı",
+        realm: "Zehirli Kristal Ormanı",
+        appearance: "Omuzlarına düşen koyu zümrüt yeşili saçlar, keskin elmacık kemikleri, parlayan yeşil iksir tüpleriyle dolu zırhlı kadife ceket.",
+        visual: { bg1: "#14532d", bg2: "#04120a", hair: "#16a34a", hairStyle: "long", skin: "#ffdbac", eye: "#4ade80", armor: "#052e16", trim: "#22c55e", accessory: "rune" },
+        vector: { M: 22, S: 18, R: 7, W: 3 },
+        stats: { magic: 90, power: 45, wit: 93 },
+        analysis: "Merakın seni her zaman yasaklı sınırların ötesine itiyor. Başkalarının korkup kaçtığı karanlık konuları sen laboratuvar masasına yatırıp formülünü çözüyorsun. Altera'da en ölümcül toksinlerden ölümsüzlük iksiri üretebilen, doğanın ve maddenin gizli kodlarını kırmış dahi bir biyo-simyacısın.\n\nSenin için hiçbir şey tamamen iyi ya da tamamen kötü değil; her şey doğru dozaj ve doğru zamanlama meselesi.",
+        prophecy: "Geçmişte yaşadığın bir hayal kırıklığını veya seni üzen bir tecrübeyi, tıpkı bir simyacı gibi saf altına dönüştüreceğin bir süreç başlıyor. O zorlu süreçte öğrendiğin gizli ders, çok yakında karşına çıkacak büyük bir fırsatta senin en keskin avantajın olacak."
+    },
+    {
+        id: 10,
+        name: "Soren Frostblade",
+        title: "Kuzey Buzullarının Sessiz Muhafızı",
+        realm: "Kriyo-Buzul Kalesi",
+        appearance: "Buz mavisi düz saçlar, keskin bakışlar, beyaz kurt kürkü omuzluklar ve kriyo-kristalden dövülmüş parlayan kılıç.",
+        visual: { bg1: "#0c4a6e", bg2: "#04111a", hair: "#7dd3fc", hairStyle: "short", skin: "#ffdbac", eye: "#bae6fd", armor: "#1e293b", trim: "#38bdf8", accessory: "scar" },
+        vector: { W: 24, S: 15, M: 6, R: 5 },
+        stats: { magic: 62, power: 91, wit: 81 },
+        analysis: "Dışarıdan bakıldığında mutlak sıfır noktasındaki bir buzul kadar soğukkanlı ve sarsılmaz görünüyorsun, ancak değer verdiğin insanlar söz konusu olduğunda içinde sönmeyen bir füzyon ateşi yanıyor. Gereksiz konuşmaları sevmiyor, icraatlarınla iz bırakıyorsun. Altera'da tek başına bir geçidi bin kişilik orduya karşı savunan efsanevi muhafızsın.\n\nSadakatin ve iraden senin en büyük zırhın; kolay kolay kimseyi hayatına almıyorsun ama aldığın kişiyi de asla yarı yolda bırakmıyorsun.",
+        prophecy: "Sabrının ve sessiz emeğinin test edildiği uzun bir bekleyişin sonuna geldin. Yakında verdiğin mücadelelerin karşılığını somut olarak göreceksin; sana gerçekten güvenen insanların desteğiyle sarsılmaz ve güçlü bir konuma yükseleceksin."
+    },
+    {
+        id: 11,
+        name: "Nyxia Ravenscroft",
+        title: "Kuzgun Ruhu Çağırıcısı",
+        realm: "Kül ve Gölge Ormanı",
+        appearance: "Koyu mor ve siyah karışımı dağınık saçlar, kuzgun tüylü omuzluklar, gümüş rünlü yüzükler ve gotik büyücü zırhı.",
+        visual: { bg1: "#4c1d95", bg2: "#090512", hair: "#581c87", hairStyle: "long", skin: "#f1c27d", eye: "#d8b4fe", armor: "#18181b", trim: "#9333ea", accessory: "hood" },
+        vector: { M: 24, R: 16, W: 5, S: 5 },
+        stats: { magic: 92, power: 54, wit: 82 },
+        analysis: "Sıradanlık ve yapay nezaket seni fiziksel olarak yoruyor. Karanlık estetiğe, derin felsefi sorulara ve gizemli hikayelere doğal bir çekimin var. İnsanların yüzlerine taktıkları sahte maskelerin ardındaki gerçek niyeti saniyeler içinde görüyorsun. Altera'da kadim kuzgunların gözünden tüm boyutları izleyen gizemli ruh çağırıcısın.\n\nKendi karanlığınla barışık olduğun için kimsenin seni korkutmasına izin vermiyorsun.",
+        prophecy: "Hayatındaki sahte maskelerin tek tek düşeceği keskin bir aydınlanma dönemine giriyorsun. Kimin gerçek dost, kimin sadece çıkarı için etrafında döndüğünü net bir şekilde görecek ve enerjini yalnızca seni gerçekten hak edenlere saklayacaksın."
+    },
+    {
+        id: 12,
+        name: "Cassian Volt",
+        title: "Yıldırım ve Plazma Mühendisi",
+        realm: "Gökyüzü Tersanesi",
+        appearance: "Elektrik mavisi dik saçlar, neon parıltılı siber-vizör, koyu gri zırhlı ceket ve sırtında plazma reaktörü.",
+        visual: { bg1: "#1d4ed8", bg2: "#060b19", hair: "#3b82f6", hairStyle: "spiky", skin: "#e0ac69", eye: "#60a5fa", armor: "#1e293b", trim: "#2563eb", accessory: "visor" },
+        vector: { S: 24, R: 15, W: 7, M: 4 },
+        stats: { magic: 55, power: 76, wit: 95 },
+        analysis: "Hızlı düşünen, sabırsız ve her zaman bir adım sonrasını kurgulayan hiperaktif bir zekan var. Geleneksel yöntemler senin için zaman kaybı; her şeyin daha hızlı, daha akıllı ve daha havalı bir yolunu mutlaka buluyorsun. Altera'da uçan savaş gemilerinin motorlarını yıldırım enerjisiyle çalıştıran asi başmühendissin.\n\nKuralları yıkmayı seviyorsun ama bunu kaos için değil, daha iyi bir sistem inşa etmek için yapıyorsun.",
+        prophecy: "Hızla gelişen beklenmedik bir olay zinciri seni yepyeni ve heyecan verici bir ortama taşıyacak. Zekice ve pratik bir hamlen sayesinde, başkalarının aylarca uğraşıp çözemediği bir düğümü birkaç günde çözüp bütün dikkatleri üzerine çekeceksin."
+    },
+    {
+        id: 13,
+        name: "Thalia Verdant",
+        title: "Kadim Köklerin Biyo-Koruyucusu",
+        realm: "Zümrüt Biyosfer",
+        appearance: "Parlayan çiçekler ve sarmaşıklarla örülü kestane rengi uzun saçlar, yosun yeşili pelerin ve organik zırh parçaları.",
+        visual: { bg1: "#065f46", bg2: "#04140e", hair: "#78350f", hairStyle: "long", skin: "#c68642", eye: "#34d399", armor: "#064e3b", trim: "#6ee7b7", accessory: "crown" },
+        vector: { M: 21, W: 14, S: 9, R: 6 },
+        stats: { magic: 86, power: 74, wit: 78 },
+        analysis: "Doğaya, canlılara ve organik bağlara derinden bağlı, etrafına huzur veren ama damarına basıldığında bir doğa afeti kadar yıkıcı olabilen birisin. İnsanları iyileştiren, onlara akıl veren anaç ama güçlü bir enerjin var. Altera'da devasa kadim ağaçları uyandırıp orduları durduran doğa rahibesisin.\n\nSenin gücün zorlamaktan değil, evrenin doğal ritmiyle uyum içinde akmaktan geliyor.",
+        prophecy: "Uzun süredir ektiğin iyilik, emek ve sabır tohumlarının nihayet filizlenme zamanı geldi. Hayatında derin bir huzur bulacağın, kendini gerçekten ait hissedeceğin yeni bir düzen kuracaksın. Ruhsal olarak yenileneceğin bereketli bir dönem seni bekliyor."
+    },
+    {
+        id: 14,
+        name: "Riven Cross",
+        title: "Kızıl Ay Boyut Avcısı",
+        realm: "Lanetsiz Sınır",
+        appearance: "Alnına düşen gümüş perçemli siyah saçlar, geniş kenarlı avcı şapkası, zırhlı uzun deri palto ve plazma arbalet.",
+        visual: { bg1: "#881337", bg2: "#0d060a", hair: "#18181b", hairStyle: "short", skin: "#f1c27d", eye: "#fb7185", armor: "#1f2937", trim: "#e11d48", accessory: "hat" },
+        vector: { W: 21, R: 18, S: 7, M: 4 },
+        stats: { magic: 48, power: 89, wit: 84 },
+        analysis: "Tek başına hareket etmeyi seven, kimseye borçlu kalmaktan hoşlanmayan keskin nişancı ruhlu birisin. Hem fiziksel cesaretin hem de soğukkanlı taktiksel zekan çok yüksek. Altera Evreni'nde boyut yırtıklarından sızan karanlık yaratıkları avlayan, adı tavernalarda saygıyla fısıldanan o efsanevi yalnız kurt avcısısın.\n\nKalabalıklara ihtiyacın yok; çünkü kendi kendine yetebilmenin verdiği o sarsılmaz özgüvene sahipsin.",
+        prophecy: "Kendi başına verdiğin ve çevrendekilerin sorguladığı bir kararın ne kadar doğru olduğunu kanıtlayacağın bir olay yaşayacaksın. Herkesin 'yapamazsın' dediği o zorlu hedefi tam on ikiden vuracak ve bağımsızlığını kendi ellerinle ilan edeceksin."
+    },
+    {
+        id: 15,
+        name: "Elowen Starweaver",
+        title: "Göksel Kuantum Kütüphanecisi",
+        realm: "Bulutların Üstündeki Arşiv",
+        appearance: "Altın simli açık kumral dalgalı saçlar, hilal şeklinde enerji tokası, yıldız tozlu beyaz ve lacivert cübbe.",
+        visual: { bg1: "#312e81", bg2: "#090a1a", hair: "#d97706", hairStyle: "long", skin: "#ffdbac", eye: "#fde047", armor: "#1e1b4b", trim: "#facc15", accessory: "rune" },
+        vector: { S: 22, M: 20, R: 5, W: 3 },
+        stats: { magic: 89, power: 35, wit: 97 },
+        analysis: "Bilgi senin için evrendeki en saf ve en değerli enerji kaynağı. Bir konuyu merak ettiğinde gece yarısına kadar araştıran, alakasız görünen detayları birleştirip büyük resmi ortaya çıkaran entelektüel bir ruhun var. Altera'da evrenin başlangıcından beri yazılmış tüm kader kayıtlarının saklandığı Göksel Arşiv'in baş koruyucususun.\n\nSenin zihnin asla paslanmayan bir merak motoruyla çalışıyor.",
+        prophecy: "Okuduğun, izlediğin veya tesadüfen duyduğun küçük bir bilgi kırıntısı, yakın gelecekte hayatındaki büyük bir düğümü çözmeni sağlayacak. Merakının peşinden gitmeye devam et; aradığın o kritik cevap hiç beklemediğin bir yerde seni bekliyor."
+    },
+    {
+        id: 16,
+        name: "Bram Ironheart",
+        title: "Örs ve Yıldız Çekici Efendisi",
+        realm: "Magma Dağları",
+        appearance: "Örgülü gür kestane sakal ve kısa saçlar, rün dövmeli güçlü kollar, ağır zırhlı demirci önlüğü ve parlayan savaş çekici.",
+        visual: { bg1: "#9a3412", bg2: "#170904", hair: "#7c2d12", hairStyle: "beard", skin: "#e0ac69", eye: "#fb923c", armor: "#292524", trim: "#f97316", accessory: "scar" },
+        vector: { W: 22, S: 19, M: 5, R: 4 },
+        stats: { magic: 52, power: 94, wit: 85 },
+        analysis: "Sağlam, güvenilir ve temeli olmayan hiçbir şeye inanmayan kaya gibi bir karaktersin. Söz verdiğinde gezegenler yörüngesinden çıksa yine de o sözü tutarsın. Altera Evreni'nde kralların uğruna savaştığı efsanevi plazma silahlarını kendi elleriyle döven yüce zanaatkar ustasısın.\n\nBoş laflarla değil, ortaya koyduğun somut eserlerle konuşuyorsun.",
+        prophecy: "Emek verip ilmek ilmek işlediğin bir iş, proje veya ilişki artık meyvelerini vermeye başlıyor. Geçici heveslerin değil, kalıcı ve sağlam değerlerin kazanacağı bir sürece giriyorsun; sarsılmaz duruşun sana büyük bir saygınlık getirecek."
+    },
+    {
+        id: 17,
+        name: "Sylas Mirage",
+        title: "Aynalar Labirentinin Prensi",
+        realm: "Kristal Çöl",
+        appearance: "Gümüşi mavi parlak saçlar, hipnotize edici kehribar gözler, prizma gibi ışık yansıtan holografik ipek tunik.",
+        visual: { bg1: "#581c87", bg2: "#11071f", hair: "#93c5fd", hairStyle: "short", skin: "#f1c27d", eye: "#fbbf24", armor: "#3b0764", trim: "#c084fc", accessory: "crown" },
+        vector: { R: 22, M: 19, S: 6, W: 3 },
+        stats: { magic: 91, power: 44, wit: 87 },
+        analysis: "İnsanları etkileme, ikna etme ve algıları istediğin gibi bükme konusunda doğuştan gelen büyüleyici bir karizman var. Kimse senin gerçekten ne düşündüğünü tam olarak çözemiyor çünkü sen her zaman bir adım geride gülümseyerek izliyorsun. Altera'da düşmanlarını kendi yarattığı illüzyon labirentlerinde hapseden gizemli ayna büyücüsüsün.\n\nSenin için gerçeklik, onu nasıl sunduğuna göre şekillenen esnek bir kavram.",
+        prophecy: "Yakında ikna kabiliyetini ve sosyal zekanı kullanman gereken kritik bir görüşme veya fırsat doğacak. İnsanların ne duymak istediğini ve neye ihtiyaç duyduğunu tam olarak bildiğin için bu durumdan istediğin sonucu alarak çıkacaksın."
+    },
+    {
+        id: 18,
+        name: "Freya Valkyrie",
+        title: "Gök Kubbe Süvarisi",
+        realm: "Stratosfer Kaleleri",
+        appearance: "Rüzgarda uçuşan altın sarısı uzun saçlar, kanatlı gümüş miğfer ve gökyüzü mavisi ışık zırhı.",
+        visual: { bg1: "#0284c7", bg2: "#071626", hair: "#fde047", hairStyle: "long", skin: "#ffdbac", eye: "#38bdf8", armor: "#e2e8f0", trim: "#0ea5e9", accessory: "crown" },
+        vector: { W: 23, M: 16, S: 6, R: 5 },
+        stats: { magic: 78, power: 90, wit: 74 },
+        analysis: "Yüksek idealleri olan, cesur ve etrafına ışık saçan ilham verici bir ruhun var. Küçük hesapların peşinde koşmak yerine her zaman daha yüce bir amaca hizmet etmek istiyorsun. Altera'da kanatlı mekanik küheylanıyla bulutların arasından süzülüp karanlığı yaran göksel süvarisin.\n\nDüştüğünde bile gökyüzüne bakmaktan vazgeçmeyen o nadir savaşçılardansın.",
+        prophecy: "Ufkunun genişleyeceği, hayata çok daha yukarıdan ve berrak bakacağın aydınlık bir döneme giriyorsun. Seni aşağı çeken küçük dertlerden ve gereksiz endişelerden sıyrılacak, büyük hedeflerine doğru hızla kanatlanacaksın."
+    },
+    {
+        id: 19,
+        name: "Dante Cipher",
+        title: "Kaos ve Kuantum Teorisyeni",
+        realm: "Parçalanmış Boyut",
+        appearance: "Siyah ve beyaz iki renkli dağınık saçlar, asimetrik siber-ceket ve havada süzülen neon geometrik küpler.",
+        visual: { bg1: "#18181b", bg2: "#050507", hair: "#e4e4e7", hairStyle: "spiky", skin: "#f1c27d", eye: "#22d3ee", armor: "#09090b", trim: "#06b6d4", accessory: "visor" },
+        vector: { S: 21, R: 20, M: 5, W: 4 },
+        stats: { magic: 66, power: 62, wit: 98 },
+        analysis: "Senin zihnin hem bir büyükusta satranç oyuncusu kadar disiplinli hem de bir sistem korsanı kadar öngörülemez. Kuralların ve sistemlerin açıklarını saniyeler içinde bulup kendi lehine kullanıyorsun. Altera'da boyutlar arasındaki yasaklı enerji kapılarını matematiksel şifrelerle hackleyen asi dehasın.\n\nNormal insanlar duvar görürken, sen o duvarın kaynak kodundaki hatayı görüyorsun.",
+        prophecy: "Herkesin kilitli sandığı bir kapının şifresini çözeceğin sürpriz bir gelişme kapıda. Alışılmışın dışındaki yaratıcı düşünce tarzın sayesinde, tamamen tıkanmış görünen bir meselede dahiyane bir çıkış yolu bulacaksın."
+    },
+    {
+        id: 20,
+        name: "Aetheris The Balanced",
+        title: "Dört Boyutun Denge Köprüsü",
+        realm: "Merkez Kuantum Tapınağı",
+        appearance: "Omuz hizasında gece mavisi saçlar, alnında dört elementin parlayan sembolü, altın ve siyah dengeli kutsal zırh.",
+        visual: { bg1: "#311042", bg2: "#090612", hair: "#1e3a8a", hairStyle: "long", skin: "#e0ac69", eye: "#facc15", armor: "#111827", trim: "#eab308", accessory: "rune" },
+        vector: { M: 14, W: 14, S: 14, R: 8 },
+        stats: { magic: 85, power: 85, wit: 85 },
+        analysis: "Sen evrende çok nadir rastlanan bir denge ruhusun. Ne tamamen duygularının esirisin ne de buz gibi bir mantık makinesi. Gerektiğinde en ön safta savaşmayı, gerektiğinde gölgelere çekilip strateji kurmayı bilen çok yönlü bir ustasın. Altera Evreni'nde savaşan dört büyük diyarı bir arada tutan efsanevi denge koruyucususun.\n\nHer ortama uyum sağlayabilmen senin zayıflığın değil, en büyük evrimsel gücün.",
+        prophecy: "Hayatındaki farklı alanların (iş, özel hayat ve kişisel hedefler) nihayet uyumlu bir dengeye oturduğu altın bir döneme giriyorsun. İki zıt durum veya kişi arasında kuracağın bilgece köprü, hem sana hem de etrafındakilere büyük bir ferahlık getirecek."
+    }
+];
