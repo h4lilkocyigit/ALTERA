@@ -1,7 +1,7 @@
 :root {
-    --bg-dark: #090a10;
-    --card-bg: rgba(20, 22, 36, 0.78);
-    --border-glow: rgba(168, 130, 255, 0.25);
+    --bg-dark: #07080d;
+    --card-bg: rgba(16, 18, 30, 0.85);
+    --border-glow: rgba(168, 130, 255, 0.28);
     --primary: #9d65ff;
     --primary-hover: #b388ff;
     --gold: #f5c26b;
@@ -28,7 +28,6 @@ body {
     padding: 20px;
 }
 
-/* Arka Plan Efektleri */
 .stars-bg {
     position: fixed;
     inset: 0;
@@ -45,9 +44,9 @@ body {
 
 .nebula-glow {
     position: fixed;
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, rgba(157, 101, 255, 0.18) 0%, rgba(9, 10, 16, 0) 70%);
+    width: 650px;
+    height: 650px;
+    background: radial-gradient(circle, rgba(157, 101, 255, 0.18) 0%, rgba(7, 8, 13, 0) 70%);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -57,18 +56,18 @@ body {
 
 .container {
     width: 100%;
-    max-width: 820px;
+    max-width: 840px;
     z-index: 1;
 }
 
 .screen {
     background: var(--card-bg);
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(18px);
     border: 1px solid var(--border-glow);
     border-radius: 24px;
-    padding: 44px;
-    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.65);
-    animation: fadeIn 0.5s ease forwards;
+    padding: 42px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.75);
+    animation: fadeIn 0.45s ease forwards;
 }
 
 .hidden {
@@ -80,7 +79,6 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Giriş Ekranı */
 #intro-screen {
     text-align: center;
 }
@@ -110,9 +108,9 @@ body {
 
 .subtitle {
     color: var(--text-muted);
-    font-size: 1.08rem;
+    font-size: 1.06rem;
     line-height: 1.7;
-    max-width: 600px;
+    max-width: 620px;
     margin: 0 auto 28px;
 }
 
@@ -128,12 +126,11 @@ body {
     background: rgba(255, 255, 255, 0.05);
     padding: 8px 16px;
     border-radius: 12px;
-    font-size: 0.88rem;
+    font-size: 0.86rem;
     color: var(--gold);
-    border: 1px solid rgba(245, 194, 107, 0.2);
+    border: 1px solid rgba(245, 194, 107, 0.22);
 }
 
-/* Butonlar */
 .primary-btn, .secondary-btn {
     padding: 16px 34px;
     border-radius: 14px;
@@ -166,7 +163,6 @@ body {
     background: rgba(255, 255, 255, 0.14);
 }
 
-/* Quiz Ekranı */
 .quiz-header {
     display: flex;
     justify-content: space-between;
@@ -205,7 +201,7 @@ body {
 }
 
 .question-title {
-    font-size: 1.4rem;
+    font-size: 1.38rem;
     line-height: 1.5;
     margin-bottom: 26px;
     color: #fff;
@@ -252,7 +248,6 @@ body {
     flex-shrink: 0;
 }
 
-/* Yükleme Ekranı */
 #loading-screen {
     text-align: center;
     padding: 70px 30px;
@@ -291,7 +286,6 @@ body {
     to { transform: rotate(360deg); }
 }
 
-/* Sonuç Ekranı */
 .card-top-tag {
     text-align: center;
     font-size: 0.78rem;
@@ -303,10 +297,10 @@ body {
 
 .character-showcase {
     display: grid;
-    grid-template-columns: 220px 1fr;
+    grid-template-columns: 230px 1fr;
     gap: 28px;
     align-items: center;
-    background: rgba(0, 0, 0, 0.28);
+    background: rgba(0, 0, 0, 0.35);
     padding: 24px;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.08);
@@ -318,14 +312,14 @@ body {
     border-radius: 18px;
     overflow: hidden;
     border: 2px solid var(--gold);
-    background: #141625;
+    background: #0d101d;
     aspect-ratio: 1 / 1;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
-.avatar-frame img {
+.avatar-frame svg {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     display: block;
 }
 
@@ -334,14 +328,15 @@ body {
     bottom: 8px;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(9, 10, 16, 0.88);
+    background: rgba(7, 8, 13, 0.9);
     color: var(--gold);
     font-size: 0.72rem;
     font-weight: 700;
     padding: 4px 12px;
     border-radius: 99px;
     white-space: nowrap;
-    border: 1px solid rgba(245, 194, 107, 0.4);
+    border: 1px solid rgba(245, 194, 107, 0.45);
+    z-index: 2;
 }
 
 .char-role {
@@ -397,7 +392,7 @@ body {
 .analysis-section, .prophecy-section {
     background: rgba(255, 255, 255, 0.03);
     border-left: 3px solid var(--primary);
-    padding: 20px 24px;
+    padding: 22px 26px;
     border-radius: 0 16px 16px 0;
     margin-bottom: 20px;
 }
@@ -408,8 +403,8 @@ body {
 }
 
 .analysis-section h3, .prophecy-section h3 {
-    font-size: 1.05rem;
-    margin-bottom: 10px;
+    font-size: 1.08rem;
+    margin-bottom: 12px;
     color: #fff;
 }
 
@@ -419,8 +414,13 @@ body {
 
 .analysis-section p, .prophecy-section p {
     color: #d6dae8;
-    line-height: 1.75;
-    font-size: 0.96rem;
+    line-height: 1.8;
+    font-size: 0.97rem;
+    margin-bottom: 12px;
+}
+
+.analysis-section p:last-child, .prophecy-section p:last-child {
+    margin-bottom: 0;
 }
 
 .result-actions {
@@ -433,6 +433,6 @@ body {
 @media (max-width: 680px) {
     .screen { padding: 26px 20px; }
     .character-showcase { grid-template-columns: 1fr; text-align: center; }
-    .avatar-frame { max-width: 200px; margin: 0 auto; }
+    .avatar-frame { max-width: 220px; margin: 0 auto; }
     .result-actions { flex-direction: column; }
 }
