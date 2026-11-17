@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=10">
 </head>
 <body>
     <div class="stars-bg"></div>
@@ -16,17 +16,17 @@
     <main class="container">
         <!-- 1. GİRİŞ EKRANI -->
         <section id="intro-screen" class="screen active">
-            <div class="badge">BOYUTLAR ARASI GEÇİT AKTİF</div>
+            <div class="badge">KUANTUM BOYUT GEÇİDİ AKTİF</div>
             <h1 class="logo-title">ALTERA</h1>
             <p class="subtitle">
-                Şu an yaşadığın evren, sonsuz olasılıklardan yalnızca biri. 
-                10 soruluk boyutsal yankı testini tamamla; gerçek ruhunun <strong>Altera Evreni'ndeki</strong> 
-                karşılığını, görünümünü ve seni bekleyen kadim kehaneti açığa çıkar.
+                Şu an yaşadığın gerçeklik, sonsuz olasılık ağındaki tek bir düğüm. 
+                10 soruluk boyutsal yankı testini tamamla; gerçek zihninin <strong>Altera Evreni'ndeki</strong> 
+                karşılığını, 3D karakter figürünü ve seni bekleyen kadim kehaneti açığa çıkar.
             </p>
             <div class="info-pills">
                 <span>✦ 10 Boyutsal Soru</span>
-                <span>✦ 20 Benzersiz Arketip</span>
-                <span>✦ Kişisel Kehanet</span>
+                <span>✦ 20 Özgün Arketip</span>
+                <span>✦ Bilim-Kurgu & Kehanet Analizi</span>
             </div>
             <button id="start-btn" class="primary-btn">Boyut Kapısını Arala</button>
         </section>
@@ -41,32 +41,30 @@
                 <div id="progress-fill" class="progress-fill"></div>
             </div>
             
-            <h2 id="question-text" class="question-title">Soru metni buraya gelecek...</h2>
+            <h2 id="question-text" class="question-title">Soru yükleniyor...</h2>
             
-            <div id="options-container" class="options-grid">
-                <!-- Şıklar JS ile dinamik eklenecek -->
-            </div>
+            <div id="options-container" class="options-grid"></div>
         </section>
 
-        <!-- 3. YÜKLENİYOR / BOYUT TARAMA EKRANI -->
+        <!-- 3. YÜKLENİYOR EKRANI -->
         <section id="loading-screen" class="screen hidden">
             <div class="portal-loader">
                 <div class="ring"></div>
                 <div class="ring"></div>
                 <div class="ring"></div>
             </div>
-            <h2 id="loading-text">Paralel evren frekansların taranıyor...</h2>
+            <h2 id="loading-text">Kuantum frekansların taranıyor...</h2>
             <p class="loading-sub">Ruhsal izlerin 20 kadim arketip ile eşleştiriliyor.</p>
         </section>
 
         <!-- 4. SONUÇ EKRANI -->
         <section id="result-screen" class="screen hidden">
             <div class="result-card">
-                <div class="card-top-tag">ALTERA EVRENİ KİMLİK KARTI</div>
+                <div class="card-top-tag">ALTERA EVRENİ KİMLİK PROTOKOLÜ</div>
                 
                 <div class="character-showcase">
-                    <div class="avatar-frame">
-                        <img id="char-image" src="" alt="Karakter Görseli">
+                    <div class="avatar-frame" id="avatar-container">
+                        <!-- 3D Karakter Figürü buraya anında çizilecek -->
                         <div class="element-badge" id="char-realm">Gölge Diyarı</div>
                     </div>
                     <div class="character-header-info">
@@ -92,13 +90,13 @@
                 </div>
 
                 <div class="analysis-section">
-                    <h3>✦ Ruh ve Karakter Analizin</h3>
-                    <p id="char-analysis"></p>
+                    <h3>✦ Kuantum Ruh ve Karakter Analizin</h3>
+                    <div id="char-analysis"></div>
                 </div>
 
                 <div class="prophecy-section">
                     <h3>🔮 Altera Kadim Kehaneti</h3>
-                    <p id="char-prophecy"></p>
+                    <div id="char-prophecy"></div>
                 </div>
 
                 <div class="result-actions">
@@ -109,7 +107,7 @@
         </section>
     </main>
 
-    <script src="data.js"></script>
-    <script src="app.js"></script>
+    <script src="data.js?v=10"></script>
+    <script src="app.js?v=10"></script>
 </body>
 </html>
