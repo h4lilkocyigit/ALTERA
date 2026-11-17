@@ -124,7 +124,11 @@ function findBestCharacter(scores) {
 }
 
 function displayResult(char) {
-    document.getElementById('char-image').src = char.avatarUrl;
+    const imgEl = document.getElementById('char-image');
+    imgEl.style.opacity = '0.3';
+    imgEl.onload = () => { imgEl.style.opacity = '1'; };
+    imgEl.src = char.avatarUrl;
+
     document.getElementById('char-realm').textContent = char.realm;
     document.getElementById('char-title').textContent = char.title;
     document.getElementById('char-name').textContent = char.name;
@@ -134,7 +138,13 @@ function displayResult(char) {
     document.getElementById('stat-power').style.width = `${char.stats.power}%`;
     document.getElementById('stat-wit').style.width = `${char.stats.wit}%`;
 
-    document.getElementById('char-analysis').textContent = char.analysis;
+    // Çok paragraflı analiz ve kehaneti temiz paragraflar halinde bas
+    const analysisContainer = document.getElementById('char-analysis');
+    analysisContainer.innerHTML = char.analysis
+        .split('\n\n')
+        .map(p => `<p style="margin-bottom: 12px;">${p}</p>`)
+        .join('');
+
     document.getElementById('char-prophecy').textContent = char.prophecy;
 
     // Paylaşım Butonu
